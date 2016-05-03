@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>统计基础知识与统计实务考试练习平台</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/exercise.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+</head>
+<body>
+<div id="docFilter">
+<div class="header">
+    <div class="function">
+        <div class="function-box"></div>
+        <div class="function-boxout" style="display: none">
+            <div class="function-boxoutflot">
+                <ul>
+                    <li><a href="index_in.html">个人中心</a></li>
+                    <li><a href="exercise.html">课程练习</a></li>
+                    <li><a href="eimexam.html">资格考试模拟练习</a></li>
+                    <li><a href="exam.html">考试</a></li>
+                    <li><a href="addexam.html">添加考试</a></li>
+                    <li><a href="checkrates.html">查看评分</a></li>
+                    <li><a href="ratinginput.html">评分录入</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="labtitle"><a href="exercise.html">课程练习</a></div>
+    </div>
+    <div class="userinfo">
+        <a href="#" class="username">鹿晗</a>
+        <div class="userinfoout" style="display: none"></div>
+    </div>
+</div>
+
+<div class="main-wrapper">
+    <div class="col-full" >
+
+        <div class="tiku" id="tiku">
+            <h2>课程练习题库选择</h2>
+            <ul>
+                <li class="tkxz"><a href="#">基本库</a></li>
+                <li class="tkxz"><a href="#">扩展库</a></li>
+                <li class="tkxz"><a href="#">基本库+扩展库</a></li>
+                <li class="tkxz"><a href="#">基本库+扩展库+真题库</a></li>
+                <div class="clearfloat"></div>
+            </ul>
+        </div>
+
+        <div class="lxfs" id="lxfa">
+            <h2><span class="icon i-black" id="lxfs-black"></span>练习方案</h2>
+            <ul>
+                <li id="meizhang"><a href="#">每章练习</a></li>
+                <li id="zonghe"><a href="#">综合练习</a></li>
+                <div class="clearfloat"></div>
+            </ul>
+        </div>
+
+        <div class="zhangjie" id="zhangjie">
+            <h2><span class="icon i-black" id="zhangjie-black"></span>练习章节选择</h2>
+            <div class="zjwrp" id="lxzj">
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第一章:总论</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第二章:统计调查</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第三章:统计整理</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第四章:统计指标</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第五章:时间序列</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第六章:统计指数</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第七章:统计报告</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第八章:统计实务基本内容</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第九章:统计标准</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第十章:企业主要统计报表</p>
+                </div>
+            </div>
+            <div class="confirm">
+                <button class="goexerc-button" id="goexerc-button" type="submit" onclick="">确认</button>
+            </div>
+            <div class="clearfloat"></div>
+
+        </div>
+    </div>
+</div>
+
+<div class="tx-alert">
+    <div class="alert-bg" id="alert-bg"></div>
+    <div class="alert-box">
+        <div class="datain">
+            <span id="alert_ofno">
+                <label>
+                    <input type="radio" checked="checked" name="Sorting" value="seq" /> 顺序练习
+                </label>
+                <label>
+                    <input type="radio" name="Sorting" value="ran" /> 随机练习
+                </label>
+            </span>
+
+            <select name="select" id="select_k1" class="xla_k">
+                <option value="所有题形">所有题形(默认)</option>
+                <option value="选择题">选择题</option>
+                <option value="填空题">填空题</option>
+                <option value="判断题">判断题</option>
+                <option value="判断题">综合应用题</option>
+            </select>
+            <button class="goexerc-button" id="goexa" type="submit" >开始练习</button><br>
+            <div id="tmslrt">
+                <span>选择题数量：<input type="range" name="range" min="0" max="20" step="1" value="0" /><font style="margin-left: 10px;">0 题</font><br></span>
+                <span>填空题数量：<input type="range" name="range" min="0" max="20" step="1" value="0" /><font style="margin-left: 10px;">0 题</font><br></span>
+                <span>判断题数量：<input type="range" name="range" min="0" max="20" step="1" value="0" /><font style="margin-left: 10px;">0 题</font><br></span>
+                <span>综合应用题数量：<input type="range" name="range" min="0" max="20" step="1" value="0" /><font style="margin-left: 10px;">0 题</font><br></span>
+            <div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/header.js"></script>
+<script src="js/exercise.js"></script>

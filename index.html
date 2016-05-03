@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>统计基础知识与统计实务考试练习平台</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+</head>
+<body>
+<div id="docFilter">
+<div class="banner">
+    <font>通知：为了保证本平台所有功能正常运行，推荐使用 Google Chrome 浏览器进行访问 <a href="http://w.x.baidu.com/alading/anquan_soft_down_ub/14744">点击下载</a></font>
+</div>
+<div class="login-main">
+    <div class="login-main-body">
+        <div class="index-header">
+            <p>统计基础知识与统计实务<br>考试 · 练习 平台</p>
+        </div>
+        <div class="group-inputs">
+            <div class="input-wrapper inbor1">
+                <input type="text" name="account" aria-label="姓名" placeholder="姓名" required="">
+                <label class="error show" style="display: none">请填写姓名</label>
+            </div>
+            <div class="input-wrapper inbor2">
+                <input type="password" name="password" aria-label="密码" placeholder="密码" required="">
+                <label class="error show" style="display: none">请填写密码</label>
+            </div>
+        </div>
+        <div class="button-wrapper">
+            <button class="sign-button" type="submit">登录</button>
+        </div>
+        <div class="signin-misc-wrapper">
+            <label class="remember-me">
+                <input type="checkbox" name="remember_me" checked="" value="true"> 记住我
+            </label>
+            <a class="unable-login" href="#">无法登录?</a>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <span>Designed By Timu 蜗壳工作室</span><span class="dot">·</span><span>2009 - 2016</span>
+</div>
+<div class="bg"><canvas id="canvas"></canvas></div>
+</div>
+</body>
+</html>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bgcanvas.js"></script>
+<script src="js/index.js"></script>
+<script>
+    $(".sign-button").click(function(){
+        window.location.href="index_in.html";
+    });
+</script>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>msgalert</title>
+	<link href="css/style.css" rel="stylesheet">
+    <link href="css/exercise.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+</head>
+<!-- 
+	1.弹窗组件使用方法
+
+	先添加 模糊组件
+	在<body>后面一行添加 <div id="docFilter">
+	在</body>前面一行添加 </div>
+	也就是包裹住整个页面
+
+	然后添加 msg alert 组件
+	msg alert 组件 必须放置在 模糊组件 的外面
+	也就是和 模糊组件同级关系
+
+	2.包含文件
+	style.css
+	exercise.css
+	normalize.css
+	jquery-2.1.4.min.js
+	exercise.js
+	msgalert.js
+	(重点添加 msgalert.js 其他文件页面基本都已经链入，style.css已修改请更新)
+-->
+<body>
+
+<div id="docFilter"><!-- 模糊组件 -->
+<div id="msgalert">fuck me（确定取消按钮）</div><!-- document -->
+<div id="msgalerttime">fuck you（X秒后消失）</div>
+</div><!-- 模糊组件 -->
+
+
+<!-- msg alert 组件 -->
+<div class="tx-alert">
+    <div class="alert-bg" id="msgalert-bg"></div>
+    <div class="alert-box">
+        <div class="datain">
+        	<div style="margin: 0 0 10px 0;"><b>通知：</b></div>
+			<div style="margin: 0 0 20px 0;">alert bingo alert bingo alert bingo alert bingo alert bingo</div>
+			<div id="msgbut" style="text-align: center;">
+				<button class="goexerc-button" id="msgbut" type="submit" style="margin: 0 0 0 0;">确认</button>
+				<button class="goexerc-button" id="msgbut" type="submit">取消</button>
+			</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/msgalert.js"></script>
+<script src="js/exercise.js"></script>

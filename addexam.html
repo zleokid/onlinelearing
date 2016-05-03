@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>统计基础知识与统计实务考试练习平台</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/exercise.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+</head>
+<body>
+<div id="docFilter">
+<div class="header">
+    <div class="function">
+        <div class="function-box"></div>
+        <div class="function-boxout" style="display: none">
+            <div class="function-boxoutflot">
+                <ul>
+                    <li><a href="index_in.html">个人中心</a></li>
+                    <li><a href="exercise.html">课程练习</a></li>
+                    <li><a href="eimexam.html">资格考试模拟练习</a></li>
+                    <li><a href="exam.html">考试</a></li>
+                    <li><a href="addexam.html">添加考试</a></li>
+                    <li><a href="checkrates.html">查看评分</a></li>
+                    <li><a href="ratinginput.html">评分录入</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="labtitle"><a href="addexam.html">添加考试</a></div>
+    </div>
+    <div class="userinfo">
+        <a href="#" class="username">鹿晗</a>
+        <div class="userinfoout" style="display: none"></div>
+    </div>
+</div>
+
+<div class="main-wrapper">
+    <div class="col-full" >
+
+        <div class="tiku" id="addkaoshi">
+            <h2>建立考试</h2>
+            <ul>
+                <li id="addjieduan"><a href="#">阶段考试</a></li>
+                <li id="addqimo"><a href="#">期末考试</a></li>
+                <div class="clearfloat"></div>
+            </ul>
+        </div>
+
+        <div class="zhangjie" id="zhangjie">
+            <h2><span class="icon i-black" id="addks-black"></span>考试章节选择</h2>
+            <div class="zjwrp" id="kszj">
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第一章:总论</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第二章:统计调查</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第三章:统计整理</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第四章:统计指标</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第五章:时间序列</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第六章:统计指数</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第七章:统计报告</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第八章:统计实务基本内容</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第九章:统计标准</p>
+                </div>
+                <div class="zjxl">
+                    <div class="g_flag">0</div>
+                    <span class="checkbox">
+                        <span class="icon"></span>
+                    </span>
+                    <p>第十章:企业主要统计报表</p>
+                </div>
+            </div>
+            <div class="confirm">
+                <button class="goexerc-button" id="gotksl-button" type="submit" onclick="">下一步</button>
+            </div>
+            <div class="clearfloat"></div>
+        </div>
+
+        <div class="zhangjie" id="tkshuliang">
+            <h2><span class="icon i-black" id="addzjxz-black"></span>题目数量选择</h2>
+            <div class="zjwrp" id="tmsl">
+                <div class="zjxl">
+                    <p>基本库:选择题<span><input type="range" name="range" min="0" max="20" step="1" value="0" /><font>0 题</font></span></p>
+                </div>
+                <div class="zjxl">
+                    <p>基本库:多选题<span><input type="range" name="range" min="0" max="20" step="1" value="0" /><font>0 题</font></span></p>
+                </div>
+                <div class="zjxl">
+                    <p>基本库:判断题<span><input type="range" name="range" min="0" max="20" step="1" value="0" /><font>0 题</font></span></p>
+                </div>
+                <div class="zjxl">
+                    <p>基本库:综合应用题<span><input type="range" name="range" min="0" max="20" step="1" value="0" /><font>0 题</font></span></p>
+                </div>
+                <div class="zjxl">
+                    <p>扩展库:选择题<span><input type="range" name="range" min="0" max="20" step="1" value="0" /><font>0 题</font></span></p>
+                </div>
+                <div class="zjxl">
+                    <p>扩展库:多选题<span><input type="range" name="range" min="0" max="20" step="1" value="0" /><font>0 题</font></span></p>
+                </div>
+                <div class="zjxl">
+                    <p>扩展库:判断题<span><input type="range" name="range" min="0" max="20" step="1" value="0" /><font>0 题</font></span></p>
+                </div>
+                <div class="zjxl">
+                    <p>扩展库:综合应用题<span><input type="range" name="range" min="0" max="20" step="1" value="0" /><font>0 题</font></span></p>
+                </div>
+                <div class="zjxl">
+                    <p>基本库+扩展库:选择题<span><input type="range" name="range" min="0" max="20" step="1" value="0" /><font>0 题</font></span></p>
+                </div>
+                <div class="zjxl">
+                    <p>基本库+扩展库:多选题<span><input type="range" name="range" min="0" max="20" step="1" value="0" /><font>0 题</font></span></p>
+                </div>
+                <div class="zjxl">
+                    <p>基本库+扩展库:判断题<span><input type="range" name="range" min="0" max="20" step="1" value="0" /><font>0 题</font></span></p>
+                </div>
+                <div class="zjxl">
+                    <p>基本库+扩展库:综合应用题<span><input type="range" name="range" min="0" max="20" step="1" value="0" /><font>0 题</font></span></p>
+                </div>
+            </div>
+            <div class="confirm">
+                <button class="goexerc-button" id="goadd-button" type="submit" onclick="">确认</button>
+            </div>
+            <div class="clearfloat"></div>
+
+        </div>
+    </div>
+</div>
+
+<div class="tx-alert">
+    <div class="alert-bg" id="addalert-bg"></div>
+    <div class="alert-box">
+        <div class="datain adddatain">
+            考试日期：<input type="date" id="exdate" value="" /><br><br>
+            开始时间：<input type="time" id="exstart" value="13:00" />
+            结束时间：<input type="time" id="exend" value="15:00" /><br><br>
+            <!-- <span id="kssj">考试时间：<input type="time" value="02:00" /></span>
+            截止日期：<input type="date" value="" /> -->
+            <span style="margin-right:49px;" id="extime">持续时间：00 小时 00 分</span>
+            <span id="fpbl">分配比例(%)：<input class="dataininp3" type="text" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" placeholder="0-100" maxlength="3" /></span>
+            <button class="goexerc-button" id="goexa"  type="submit" >建立考试</button>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/header.js"></script>
+<script src="js/exercise.js"></script>
