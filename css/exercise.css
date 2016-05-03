@@ -1,0 +1,49 @@
+body{background: #F4F5F7;}
+
+.g_flag{display: none;}
+
+.lxfs h2,.tiku h2,.zhangjie h2{color: #0072C6; margin: 0 0 10px 0;}
+
+.tiku ul li a,.lxfs ul li a{background: url('../images/Folder.png') -30px -184px no-repeat;border-radius: 5px; color: #fff; display: block; height: 99px; width: 160px;
+float: left; margin: 10px 15px 10px 0; line-height: 155px; text-indent: 8px;}
+
+.tiku ul li:nth-child(1) a{background-color: #d58ea0;}
+.tiku ul li:nth-child(2) a{background-color: #7bcaa9;}
+.tiku ul li:nth-child(3) a{background-color: #5eaddf;}
+.tiku ul li:nth-child(4) a{background-color: #b88bcb;}
+.tiku ul li:nth-child(5) a{background-color: #a3be73;}
+
+.lxfs {display: none;}
+.lxfs ul li:nth-child(1) a{background-color: #95d78a;}
+.lxfs ul li:nth-child(2) a{background-color: #ae8383;}
+
+.i-black{background-position: -529px -333px;width: 30px; height: 30px; vertical-align: bottom; display: inline-block; margin:0 10px 0 0; transition:.2s;cursor:pointer;}
+.i-black:hover{background-position: -590px -333px;}
+
+.zjwrp{margin-top: 20px;}
+.zhangjie{display: none;}
+.zjxl{ height: 50px; border: 1px solid #fff; border-top-color: #eee;transition:.2s;}
+.zjxl .checkbox{ height: 50px; width: 30px; float: left; transition:.2s;}
+.checkbox .icon{ display: block; width:16px; height: 16px;  background-color: #ccd0d7; background-position: -535px -89px;border-radius: 4px; margin: 17px 0 0 7px;}
+.zjxl:hover {border-color: #BAC6D1 !important;box-shadow: rgba(0,0,0,.2) 0px 2px 2px !important;}
+.zjxl:hover .checkbox{background: #BAC6D1 !important;}
+.zjxl:hover .checkbox .icon{background-position: -663px -725px !important;}
+.zjxl p{line-height:24px; text-indent: 1em;}
+.zjxl:nth-last-child(1){border-bottom-color: #eee;}
+.zjxl p span {float: right; margin-right: 40px; width: 185px;}
+.zjxl p span input {float: left;}
+.zjxl p span font {float: right;}
+
+.confirm{margin: 20px 0 0 0; float: right;}
+
+.tx-alert{ width: 100%; height: 100%; position: fixed; left:0; top:0;z-index: 9999; display: none;}
+.alert-bg{width: 100%; height: 100%; position: fixed; left:0; top:0; background: rgba(0,0,0,.5); }
+.alert-box{ background: #fff; position:  absolute; z-index: 1;left: 50%; top: 50%; border-radius: 5px;}
+.datain{ margin: 20px;}
+.goexerc-button{background: #5bb8ff;box-shadow: none;border: 0;border-radius: 3px;line-height: 36px;color: #fff;display: inline-block;padding: 0;width: 110px;  font-size: 15px; text-align: center;text-shadow: 0 1px 1px rgba(0,0,0,.2);transition:.5s; margin: 0 0 0 30px;}
+.goexerc-button:hover{background: #55abed;}
+
+.adddatain input{margin-right: 15px;}
+.dataininp3 {width: 40px;}
+
+#tmslrt{ margin-top: 15px;}

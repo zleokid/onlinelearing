@@ -1,0 +1,38 @@
+body{font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif; font-size: 14px;}
+input,button{outline:none;}
+ul,li{list-style: none; margin: 0; padding: 0;}
+a{ text-decoration: none; color: #555;}
+.clearfloat{clear:both}
+
+
+.icon{background: url("../images/icons2.png") no-repeat;}
+
+/* header */
+.header{ height: 50px; width: 100%; background: #0072C6; color: #fff;box-shadow: rgba(0,0,0,.2) 1px 1px 4px;z-index: 999;position: relative;}
+
+.header .function{float: left;}
+.function-box{width: 50px; height: 50px; background:url("../images/index_in/function-box icon.png") 17px 17px no-repeat; border: 0px solid #4C9CD7; border-right-width: 1px; float: left;cursor:pointer;transition:.2s;}
+.function-box:hover{background:url("../images/index_in/function-box icon.png") 17px 17px no-repeat #0065af;}
+.function-boxout{ width: 490px; height: 220px;  background:#fff; position: absolute; top:50px;left: 0;box-shadow: rgba(0,0,0,.2) 1px 1px 4px;border-radius: 0px 0px 5px 5px;}
+.function-boxoutflot{width: 460px; height: 185px; margin: 28px 0 0 25px;}
+.function-boxoutflot ul li a{ display:block; width: 75px; height: 75px; background: #0072C6; float: left; margin: 0 15px 15px 0;transition:.2s;border-radius:5px;  color: #fff; text-align: center;}
+.function-boxoutflot ul li a:hover{transform: scale(1.1);}
+.labtitle {float: left;line-height: 50px;}
+.labtitle a{padding: 0 20px; font-size: 16px; color: #fff; height: 50px; display: block; transition:.2s;}
+.labtitle a:hover{background:#0065af;}
+
+.header .userinfo{float:right;line-height: 50px;}
+.header .userinfo a{ color: #fff; font-size: 16px; padding: 0px 20px; height: 50px; display: block;transition:.2s;}
+.header .userinfo a:hover{background:#0065af;}
+.userinfoout{ width: 354px; height: 215px; background: #fff; position: absolute; right: 0;box-shadow: rgba(0,0,0,.2) -1px 1px 4px;border-radius: 0px 0px 5px 5px;}
+
+/* main-wrapper */
+.main-wrapper{ width: 1100px; position: relative; background: #fff;  margin: 30px auto 30px auto;  box-shadow: 0 0 0 1px #eee;  border-radius: 4px; }
+.col-full{ padding: 20px; position: relative;}
+
+.documentFilter{
+	-webkit-filter: blur(5px); /* Chrome, Opera */
+	-moz-filter: blur(5px);
+	-ms-filter: blur(5px);    
+	filter: blur(5px);
+}

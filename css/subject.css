@@ -1,0 +1,25 @@
+body{background: #F4F5F7;}
+
+.col-full{margin: 20px 60px;}
+.col-full h1{color: #0072C6; text-align: center;}
+.col-full h3.titpor{border: 0px dashed #ccc; border-bottom-width: 1px; line-height: 60px; font-weight: normal;}
+
+.q_tit{ font-weight: bold; font-size: 16px;}
+.div_question{padding: 10px 25px; border: 0px solid #ccc; border-bottom-width: 1px;}
+.dq2{border: 0px;}
+.div_question:hover{ background: #EDFAFE;}
+.div_title_question{font-weight: bold; line-height: 30px;}
+.dtq1{ margin: 0 0 0 25px;}
+ul.ulradiocheck li{line-height: 30px;}
+ul.ulradiocheck li label{display: inline-block; width: 98%;}
+ul.ulradiocheck li:hover{background: rgba(204,204,204,.2);}
+
+.carryout{ text-align: center; margin: 40px 0 0 0;}
+.carryout-button{background: #5bb8ff;box-shadow: none;border: 0;border-radius: 3px;line-height: 36px;color: #fff;display: inline-block;padding: 0;width: 110px;  font-size: 15px; text-align: center;text-shadow: 0 1px 1px rgba(0,0,0,.2);transition:.5s; margin: 0 0 0 30px;}
+.carryout-button:hover{background: #55abed;}
+
+.integratedw{border: 0px solid #ccc; border-bottom-width: 1px; padding: 0 0 10px 0; margin: 15px 0 0 0;}
+
+.w_countdown{ width: 90px; background: #fff; position: fixed; z-index: 99; top:200px; left: 50%; margin: 0 0 0 -600px;border: 1px solid #ccc; padding: 15px 8px; font-size: 12px; text-align: center;}
+.coun_xian{ width: 100%; height: 1px; background: #ccc; margin: 5px 0;}
+.w_countdown span{ color: red; font-size: 20px; }
