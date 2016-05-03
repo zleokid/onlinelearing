@@ -1,0 +1,20 @@
+body{background: #F4F5F7;}
+
+.col-full{margin: 20px 60px;}
+.col-full h1{color: #0072C6; text-align: center;}
+.col-full h3.titpor{ font-weight: normal;color: #0072C6;}
+
+.anstab { width: 800px; text-align: center;}
+.anstab tr td{ padding: 7px;}
+
+.butback{ text-align: center; margin: 20px 0;}
+.button-back{background: #5bb8ff;box-shadow: none;border: 0;border-radius: 3px;line-height: 36px;color: #fff;display: inline-block;padding: 0;width: 110px;  font-size: 15px; text-align: center;text-shadow: 0 1px 1px rgba(0,0,0,.2);transition:.5s;}
+.button-back:hover{background: #55abed;}
+
+.tmjx{margin-bottom:10px;padding:5px 0;}
+.tmjx .tm font:nth-child(2){color:#0066ff;}
+.tmjx .tm font:nth-child(3){color:red;}
+.tmjx .tm span{color:#efa030; margin-left: 8px;}
+.tmjx .dn{margin:5px 0 5px 20px;}
+.tmjx .dn img{vertical-align:middle;margin-left: 5px;}
+.tmjx .dn font:nth-of-type(3){color:#4096ee;}
